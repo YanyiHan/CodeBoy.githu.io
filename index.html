@@ -38,7 +38,7 @@
       </h1>
       
         <h2 id="subtitle-wrap">
-          <a href="/westen/" id="subtitle">由广而深，自律稳健的追求卓越。</a>
+          <a href="/westen/" id="subtitle">一个文艺型的软件开发工程师</a>
         </h2>
       
     </div>
@@ -66,10 +66,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-hexo-github搭建个人博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/westen/2019/03/26/hello-world/" class="article-date">
-  <time datetime="2019-03-26T08:04:43.972Z" itemprop="datePublished">2019-03-26</time>
+    <a href="/westen/2019/06/05/hexo-github搭建个人博客/" class="article-date">
+  <time datetime="2019-06-05T13:55:36.000Z" itemprop="datePublished">2019-06-05</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/westen/2019/03/26/hello-world/">Hello World</a>
+      <a class="article-title" href="/westen/2019/06/05/hexo-github搭建个人博客/">Hexo+Github搭建个人博客</a>
     </h1>
   
 
@@ -88,20 +88,358 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>Hexo+Github搭建个人博客（其一）</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yanyihan.github.io/westen/2019/03/26/hello-world/" data-id="cjty3djky00004az5rdac1yxl" class="article-share-link">Share</a>
+      <a data-url="http://yanyihan.github.io/westen/2019/06/05/hexo-github搭建个人博客/" data-id="cjwjcgsxr000l8lz5be3ix1y4" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-linux安装sqlserver-笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2019/04/15/原-linux安装sqlserver-笔记/" class="article-date">
+  <time datetime="2019-04-15T03:38:35.000Z" itemprop="datePublished">2019-04-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2019/04/15/原-linux安装sqlserver-笔记/">[原]Linux安装SqlServer[笔记]</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>由于近来处理的项目,遇到了SqlServer数据库的操作,所以,简单记录一下笔记.</p>
+<p>安装命令</p>
+<p>  wget <a href="https://packages.microsoft.com/config/rhel/7/mssql-server-2017.repo" target="_blank" rel="noopener">https://packages.microsoft.com/config/rhel/7/mssql-server-2017.repo</a> -O /etc/yum.repos.d/mssql-server.repo</p>
+<p>  yum install mssql-server -y</p>
+<p>查看版本<br>…                    <div><br>                        作者：qq_25078673 发表于 2019/04/15 11:38:35 <a href="https://blog.csdn.net/qq_25078673/article/details/89308965" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/89308965" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/89308965</a>                    </div><br>                    <div><br>                        阅读：12                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2019/04/15/原-linux安装sqlserver-笔记/" data-id="cjwjcgswz00068lz5bszcp0h5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-docker入门级学习之使用docker部署javaweb" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2019/01/10/原-docker入门级学习之使用docker部署javaweb/" class="article-date">
+  <time datetime="2019-01-10T07:45:01.000Z" itemprop="datePublished">2019-01-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2019/01/10/原-docker入门级学习之使用docker部署javaweb/">[原]Docker入门级学习之使用Docker部署JavaWeb</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Docker 入门级学习之使用Docker部署JavaWeb</p>
+<p>拉取tomcat：docker pull tomcat</p>
+<p>查看镜像： docker  images</p>
+<p>创建dockerfile:  vi dockerfile<br> from tomcat   #tomcat 是docker pull 的镜像，docker images 中的REPOSITORY<br> MAINTAINER name  …                    <div><br>                        作者：qq_25078673 发表于 2019/01/10 15:45:01 <a href="https://blog.csdn.net/qq_25078673/article/details/86192072" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/86192072" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/86192072</a>                    </div><br>                    <div><br>                        阅读：101                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2019/01/10/原-docker入门级学习之使用docker部署javaweb/" data-id="cjwjcgsw600008lz58mz22ptb" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-docker入门级学习简记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2019/01/08/原-docker入门级学习简记/" class="article-date">
+  <time datetime="2019-01-08T04:33:44.000Z" itemprop="datePublished">2019-01-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2019/01/08/原-docker入门级学习简记/">[原]Docker入门级学习简记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Docker入门级学习简记</p>
+<p>Docker简记</p>
+<p>Docker是用来安装应用的容器，是开源，支持跨平台的<br>Docker思想：集装箱，标准化（运输方式，存储方式，API接口），隔离<br>Docker解决的问题：解决本地运行与服务器异常；解决系统占用，解决服务器用量</p>
+<p>Docker核心技术</p>
+<p>镜像，仓库，容器<br>Build：构建镜像  Ship:运输镜像  Run:运行镜像<br>Docker镜像：镜像不可修改，…                    <div><br>                        作者：qq_25078673 发表于 2019/01/08 12:33:44 <a href="https://blog.csdn.net/qq_25078673/article/details/86067803" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/86067803" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/86067803</a>                    </div><br>                    <div><br>                        阅读：84                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2019/01/08/原-docker入门级学习简记/" data-id="cjwjcgswb00018lz5k9jibqgq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-mongo在mac上安装及启用-简记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2018/11/13/原-mongo在mac上安装及启用-简记/" class="article-date">
+  <time datetime="2018-11-13T04:09:39.000Z" itemprop="datePublished">2018-11-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2018/11/13/原-mongo在mac上安装及启用-简记/">[原]Mongo在Mac上安装及启用-简记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Mongo在Mac上的安装及启用</p>
+<p>1、Brew安装\更新</p>
+<p>安装<br>/usr/bin/ruby -e &quot;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install)" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install)</a>&quot;<br>更新<br>brew update<br>卸载<br>/usr/bin/ruby -e &quot;$(curl -fsSL <a href="https://raw.github.." target="_blank" rel="noopener">https://raw.github..</a>.                    <div><br>                        作者：qq_25078673 发表于 2018/11/13 12:09:39 <a href="https://blog.csdn.net/qq_25078673/article/details/84026760" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/84026760" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/84026760</a>                    </div><br>                    <div><br>                        阅读：43 评论：1 <a href="https://blog.csdn.net/qq_25078673/article/details/84026760#comments" target="_blank" rel="noopener">查看评论</a>                    </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2018/11/13/原-mongo在mac上安装及启用-简记/" data-id="cjwjcgswu00048lz5cbbichz5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-总结-java多线程与高并发简记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2018/06/02/原-总结-java多线程与高并发简记/" class="article-date">
+  <time datetime="2018-06-02T15:27:01.000Z" itemprop="datePublished">2018-06-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2018/06/02/原-总结-java多线程与高并发简记/">[原]总结-Java多线程与高并发简记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1、什么是线程？线程是程序内的顺序控制流，只能使用分配给 序的资源和环境2、Java多线程实现方式3、线程的状态  3.1、新建状态（New）：线程被创建  3.2、就绪状态（Runnable）：可执行状态，线程对象调用start()启动  3.3、运行状态（Running）：获取CPU进行执行。线程只能从就绪状态到运行状态  3.4、阻塞状态（Blocked）：线程因为某种原因放弃CPU使用权，…                    <div><br>                        作者：qq_25078673 发表于 2018/06/02 23:27:01 <a href="https://blog.csdn.net/qq_25078673/article/details/80517000" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/80517000" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/80517000</a>                    </div><br>                    <div><br>                        阅读：71                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2018/06/02/原-总结-java多线程与高并发简记/" data-id="cjwjcgsxg000f8lz59opuhs1j" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-总结-数据结构简记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2018/05/29/原-总结-数据结构简记/" class="article-date">
+  <time datetime="2018-05-29T13:04:03.000Z" itemprop="datePublished">2018-05-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2018/05/29/原-总结-数据结构简记/">[原]总结-数据结构简记</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1、数据结构：相互之间存在一种或多种特定关系的数据元素集合2、数据结构分类：逻辑结构（数据元素之间的相互关系）；物理结构（数据在计算机中的存储形式）3、逻辑结构：集合结构，线性结构，树形结构，圆形结构4、物理结构：      4.1、顺序存储：把数据元素存放在地址连续的存储单元里，其数据间逻辑关系和物理关系一致     4.2、链式存储：把数据元素存放在任意存储单元里，这组存储单元可以是连续的，也…                    <div><br>                        作者：qq_25078673 发表于 2018/05/29 21:04:03 <a href="https://blog.csdn.net/qq_25078673/article/details/80502036" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/80502036" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/80502036</a>                    </div><br>                    <div><br>                        阅读：39                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2018/05/29/原-总结-数据结构简记/" data-id="cjwjcgsxh000g8lz5g8e38xkb" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-总结-java分布式概念简述" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2018/05/29/原-总结-java分布式概念简述/" class="article-date">
+  <time datetime="2018-05-28T16:22:54.000Z" itemprop="datePublished">2018-05-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2018/05/29/原-总结-java分布式概念简述/">[原]总结-Java分布式概念简述</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本文是基于个人学习理解的简单总结，有非专业地方，还望指教   1、分布式是什么？        分布式是一种架构模式，是将公有模块进行提取，构建成单独的模块，部署在不同服务器上进行调用。   2、为什么要用分布式？        从系统架构的演进过程来看，总体方向都是功能模块细分化，业务细化拆分。随之系统的整体是逐步复杂化，模块和业务方向更清晰化，更利于维护。降低了耦合度，而不用牵一发而动全…                    <div><br>                        作者：qq_25078673 发表于 2018/05/29 00:22:54 <a href="https://blog.csdn.net/qq_25078673/article/details/80489020" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/80489020" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/80489020</a>                    </div><br>                    <div><br>                        阅读：3216 评论：3 <a href="https://blog.csdn.net/qq_25078673/article/details/80489020#comments" target="_blank" rel="noopener">查看评论</a>                    </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2018/05/29/原-总结-java分布式概念简述/" data-id="cjwjcgsxe000e8lz5oafr5dyq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-杂记-18年夏之五月" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2018/05/28/原-杂记-18年夏之五月/" class="article-date">
+  <time datetime="2018-05-28T12:36:00.000Z" itemprop="datePublished">2018-05-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2018/05/28/原-杂记-18年夏之五月/">[原]杂记-18年夏之五月</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>不要轻易的否定自己，每个人都有每个人的特长，要认真的区找到自己的特长，并着重提升这个特长。那么，这就是我们每个人自信的源泉之一。  技术上的事情，是必须花费足够多的时间去提升的，没有做到足够时间，总会有许多缺失。职业教育，着重提升了短期的实战能力，但是，深度的理论辨析能力却是薄弱的。大学教育，着重理论教育的时间居多，实战的经验则是就业实训中进行积累。两者比较，后者在后期长期发展更具优势，因为，…                    <div><br>                        作者：qq_25078673 发表于 2018/05/28 20:36:00 <a href="https://blog.csdn.net/qq_25078673/article/details/80487940" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/80487940" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/80487940</a>                    </div><br>                    <div><br>                        阅读：84                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2018/05/28/原-杂记-18年夏之五月/" data-id="cjwjcgsxl000i8lz5fi97zv97" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-原-tensorflow学习笔记day2-综述" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/westen/2017/04/24/原-tensorflow学习笔记day2-综述/" class="article-date">
+  <time datetime="2017-04-24T15:40:59.000Z" itemprop="datePublished">2017-04-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/westen/2017/04/24/原-tensorflow学习笔记day2-综述/">[原]TensorFlow学习笔记Day2-综述</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>TensorFlow学习笔记Day2，CNN，RNN，偏微分方程，字词的向量表示等综合概述                    <div><br>                        作者：qq_25078673 发表于 2017/04/24 23:40:59 <a href="https://blog.csdn.net/qq_25078673/article/details/70667017" target="_blank" rel="noopener">原文链接</a> <a href="https://blog.csdn.net/qq_25078673/article/details/70667017" target="_blank" rel="noopener">https://blog.csdn.net/qq_25078673/article/details/70667017</a>                    </div><br>                    <div><br>                        阅读：210                     </div></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yanyihan.github.io/westen/2017/04/24/原-tensorflow学习笔记day2-综述/" data-id="cjwjcgsx7000a8lz5bfbkioqv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -112,6 +450,11 @@
 
   
 
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/westen/page/2/">2</a><a class="page-number" href="/westen/page/3/">3</a><a class="extend next" rel="next" href="/westen/page/2/">下一页 &raquo;</a>
+  </nav>
 
 </section>
         
@@ -129,7 +472,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2019/03/">三月 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2019/04/">四月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2019/01/">一月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2018/11/">十一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2018/06/">六月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2018/05/">五月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2017/04/">四月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2017/03/">三月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2016/10/">十月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2016/03/">三月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2015/09/">九月 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/westen/archives/2015/05/">五月 2015</a></li></ul>
     </div>
   </div>
 
@@ -142,7 +485,23 @@
       <ul>
         
           <li>
-            <a href="/westen/2019/03/26/hello-world/">Hello World</a>
+            <a href="/westen/2019/06/05/hexo-github搭建个人博客/">Hexo+Github搭建个人博客</a>
+          </li>
+        
+          <li>
+            <a href="/westen/2019/04/15/原-linux安装sqlserver-笔记/">[原]Linux安装SqlServer[笔记]</a>
+          </li>
+        
+          <li>
+            <a href="/westen/2019/01/10/原-docker入门级学习之使用docker部署javaweb/">[原]Docker入门级学习之使用Docker部署JavaWeb</a>
+          </li>
+        
+          <li>
+            <a href="/westen/2019/01/08/原-docker入门级学习简记/">[原]Docker入门级学习简记</a>
+          </li>
+        
+          <li>
+            <a href="/westen/2018/11/13/原-mongo在mac上安装及启用-简记/">[原]Mongo在Mac上安装及启用-简记</a>
           </li>
         
       </ul>
@@ -157,7 +516,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019 Westen Wang<br>
+      &copy; 2019 Westen<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
